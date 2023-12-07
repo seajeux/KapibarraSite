@@ -1,0 +1,25 @@
+:root {
+  --clr-dark: #0f172a;
+  --clr-light: #F7E3C6;
+  --clr-accent: #e11d48;
+
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Analogist.otf);
+}
+
+body {
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: myFirstFont;
+  letter-spacing: 2px;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
